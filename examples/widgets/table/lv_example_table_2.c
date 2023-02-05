@@ -1,7 +1,7 @@
 #include "../../lv_examples.h"
 #if LV_USE_TABLE && LV_BUILD_EXAMPLES
 
-#define ITEM_CNT 200
+#define ITEM_CNT (uint32_t) 200
 
 static void draw_event_cb(lv_event_t * e)
 {
